@@ -61,7 +61,7 @@ function find(url, cb) {
     }
 
     if ( json.links && json.links.pages && json.links.pages.next ) {
-      loop(json.links.pages.next, cb);
+      find(json.links.pages.next, cb);
     } else {
       cb();
     }
