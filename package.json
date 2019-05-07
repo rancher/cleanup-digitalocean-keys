@@ -1,0 +1,11 @@
+{
+  "name": "cleanup-digitalocean-keys",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Rancher Labs, Inc.",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "async": "*",
+    "request": "*"
+  }
+}
